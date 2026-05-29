@@ -1,5 +1,9 @@
 # FlowBoard — Kanban · Draw · AI
 
+[![Deploy to GitHub Pages](https://github.com/Arigatouz/Habiba-test/actions/workflows/deploy.yml/badge.svg)](https://github.com/Arigatouz/Habiba-test/actions/workflows/deploy.yml)
+
+**🔗 Live site:** https://arigatouz.github.io/Habiba-test/
+
 A mobile-friendly productivity app that combines a **Kanban board**, a full-featured
 **drawing canvas**, and an **AI assistant** (powered by the Anthropic SDK) that can *see*
 your drawing and board to help you design and plan.
@@ -33,6 +37,12 @@ npm run preview  # preview the production build
 
 Then open the app, go to **Settings**, and paste your Anthropic API key
 (get one at [console.anthropic.com](https://console.anthropic.com/settings/keys)).
+
+## Deployment
+
+Pushing to `master` runs `.github/workflows/deploy.yml`, which builds the app and
+publishes `dist/` to GitHub Pages. The build uses a relative `base` and hash-based
+routing, so it works under the `/Habiba-test/` sub-path with no server config.
 
 ## Notes on the API key
 
