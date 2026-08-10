@@ -12,7 +12,7 @@
     "@anthropic-ai/sdk": "^0.100.1",
     "fabric": "^7.4.0",
     "markdown-it": "^14.2.0",
-    "nanoid": "^5.1.11",
+    "nanoid": "^5.1.16",
     "pinia": "^3.0.4",
     "pinia-plugin-persistedstate": "^4.7.1",
     "vue": "^3.5.34",
